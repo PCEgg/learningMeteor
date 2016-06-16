@@ -1,6 +1,7 @@
 import React from 'react';
 import { Col, Panel, FormGroup, ControlLabel, FormControl, Button, Glyphicon } from 'react-bootstrap';
 import ReactDOM from 'react-dom';
+
 class NewUser extends React.Component {
 	render() {
 		const {error} = this.props;
