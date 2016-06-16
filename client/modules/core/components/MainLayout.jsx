@@ -1,13 +1,9 @@
 import React from 'react';
+import { PageHeader } from 'react-bootstrap';
 const Layout = ({content}) => (
   <div>
-    <header>
-      <h1>Impossible List</h1>
-    </header>
-    <div>
-      {content()}
-    </div>
+    <PageHeader>Impossible List </PageHeader>
+    {content()} 
   </div>
 );
-
-export default Layout;
+export default Layout
